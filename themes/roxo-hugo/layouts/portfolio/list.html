@@ -10,17 +10,17 @@
           </h1>
         </div>
       </div>
-      <div class="col-lg-4">
+      <!--<div class="col-lg-4">
         <a href="#project" class="site-project-header-action scroll-to">
           <span>{{ .Site.Params.portfolio.scroll_down }}</span>
           <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
         </a>
-      </div>
+      </div>-->
     </div>
   </div>
 </section>
 
-<section class="site-project" id="project">
+<!--<section class="site-project" id="project">
   <div class="container">
     <div class="row">
       {{ range (.Paginator 4).Pages }}
@@ -44,8 +44,10 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
-{{ partial "call-to-action.html" . }}
+{{ partial "testimonial.html" . }}
+
+<!--{{ partial "call-to-action.html" . }}-->
 
 {{ end }}

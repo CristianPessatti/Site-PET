@@ -17,9 +17,9 @@
         <div class="col-lg-4 col-md-6">
           <div class="site-testimonial-item">
             <div class="site-testimonial-item-header">
-              <div class="thumb">
+              <!--<div class="thumb">
                 <img src="{{ .thumb | absURL }}" alt="user-thumb-one">
-              </div>
+              </div>-->
               <div class="person">
                 <h5>{{ .name }}</h5>
                 <p>{{ .company_position }}</p>
@@ -27,6 +27,9 @@
             </div>
             <p class="site-testimonial-item-body">
               {{ .quote }}
+            </p><br>
+            <p class="site-testimonial-item-body">
+              Áreas de interesse: {{ .interesse }}
             </p>
           </div>
         </div>

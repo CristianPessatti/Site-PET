@@ -19,26 +19,11 @@
         {{$menu := (.Site.Menus.nav)}} 
         {{$len := (len $menu)}} 
         {{ range $index, $element := $menu }} 
-          {{ if eq (add $index 1) $len }}
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="{{ .URL | absURL }}"
-            >
-              <span class="btn-area">
-                <span data-text="{{ .Name }}">
-                  {{ .Name }}
-                </span>
-              </span>
-            </a>
-          </li>
-          {{ else }}
           <li class="nav-item">
             <a class="nav-link" href="{{ .URL | absURL }}"
               >{{ .Name }}</a
             >
           </li>
-          {{ end }} 
         {{ end }}
       </ul>
     </div>
