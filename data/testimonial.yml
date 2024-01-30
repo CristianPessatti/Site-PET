@@ -4,7 +4,7 @@ subtitle: ""
 testimonial_item :
   - thumb : "images/testimonial/user-thumb-one.jpg"
     name  : "Alan Vitor Lima Silva"
-    company_position: "Comunicação"
+    company_position: "Conteúdo"
     quote : > 
             "Ingressei na graduação de estatística em 2023, após pesquisar sobre as mais diversas áreas encontrei a estatística e gostei muito da grade curricular e das oportunidades depois da graduação. Sou apaixonado nas 4 ligas major americana (NFL, NHL, MLB, NBA), tennis , eSports , música e cultura pop jp/kr." 
     interesse: "Probabilidade; Aprendizado de máquina."
@@ -74,7 +74,7 @@ testimonial_item :
             
   - thumb : "images/testimonial/user-thumb-six.jpg"
     name  : "João Otávio do Lago"
-    company_position: "Conteúdo"
+    company_position: "Comunicação"
     quote : > 
             "Tenho 18 anos e entrei pelo ENEM em 2023, me interessei no curso por sempre me dar bem em matemática e ter um interesse em computação. Meus hobbies são: Jogar, ler mangás e assistir séries e animes, principalmente One Piece." 
     interesse: "Estatística computacional; probabilidades e análise exploratória."
