@@ -25,7 +25,7 @@ summarylength = 25
     weight  = 4
   [[menu.nav]]
     name    = "PROJETOS"
-    url     = ""
+    url     = "projetos"
     weight  = 5
   [[menu.nav]]
     name    = "MATERIAIS"
