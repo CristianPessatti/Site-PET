@@ -78,7 +78,7 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/blank-bg.jpg"
+    background_image      = "images/backgrounds/dark-blue-bg.png"
     heading               = "PET ESTATÍSTICA UFPR"
     tagline               = "Alguma coisa aqui"
     primary_button        = "See Our Works"

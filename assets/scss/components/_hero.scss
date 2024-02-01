@@ -15,6 +15,7 @@
   }
   &-content{
     h1{
+      color: $white !important;
       margin-bottom: 75px;
       @include desktop-lg{
         font-size: 50px;
@@ -23,6 +24,9 @@
       @include mobile{
         font-size: 40px;
       }
+    }
+    h6 {
+      color: $white !important;
     }
     &-buttons{
       margin: 0;
