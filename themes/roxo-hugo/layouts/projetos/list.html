@@ -1,49 +1,44 @@
 {{ define "main" }}
 
-<section class="site-about-header">
+<section class="site-projetos-header">
   <div class="container">
     <div class="row">
+      <div class="site-projetos-espaco"></div>
       <div class="col-12">
-        <div class="site-about-wrapper">
-          <div class="site-about-company">
+        <div class="site-projetos-wrapper">
+          <div class="site-projetos-company">
             <h1>
               {{ .Params.heading }}
             </h1>
           </div>
-          <div class="site-about-description">
-            <p>
+          <div class="site-projetos-description">
+            <h3>
               {{ .Description }}
+            </h3>
+          </div>
+          <div class="site-projetos-titulo">
+            <h3>
+              {{ .Params.pet_convida_title }}
+            </h3>
+          </div>
+          {{ range .Params.pet_convida_parags }}
+          <div class="site-projetos-texto">
+            <p>
+              {{ . }}
             </p>
           </div>
+          {{ end }}        
         </div>
       </div>
     </div>
   </div>
+<div class="site-projetos-espaco"></div>
 </section>
 
-<section class="site-expertise">
-  <div class="container">
-    <div class="row">
-      {{ with .Params.expertise_title }}
-      <div class="col-md-5">
-        <div class="section-title">
-          <h2>{{ . }}</h2>
-        </div>
-      </div>
-      {{ end }}
-      {{ with .Params.expertise_sectors }}
-      <div class="col-md-6">
-        <p>{{ . }}</p>
-      {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-
-{{ partial "clients.html" . }}
+<!--{{ partial "clients.html" . }}
 
 {{ partial "team.html" . }}
 
 {{ partial "call-to-action.html" . }}
-
+-->
 {{ end }}

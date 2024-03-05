@@ -2,19 +2,34 @@
 
 <section class="site-about-header">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="site-about-wrapper">
-          <div class="site-about-company">
-            <h1>
-              {{ .Params.heading }}
-            </h1>
-          </div>
-          <div class="site-about-description">
+    <div class="site-about-espaco"></div>
+      <div class="row">
+        <div class="text-center">
+          <h3>
+            {{ .Params.heading }}
+          </h3>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="site-about-description">
             <p>
               {{ .Description }}
             </p>
-          </div>
+        </div>
+      </div>
+      <div class="site-about-espaco"></div>
+      <div class="row">
+        <div class="text-center">
+          <h3>
+            {{ .Params.heading2 }}
+          </h3>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="site-about-description">
+            <p>
+              {{ .Params.description2 }}
+            </p>
         </div>
       </div>
     </div>
@@ -42,10 +57,32 @@
   </div>
 </section>
 
-{{ partial "clients.html" . }}
+<section class="site-about-header">
+  <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h3>
+            {{ .Params.heading3 }}
+          </h3>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="site-about-description">
+            <p>
+              {{ .Params.description3 }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="site-about-espaco"></div>
+    <div class="site-about-espaco"></div>
+</section>
+
+<!--{{ partial "clients.html" . }}
 
 {{ partial "team.html" . }}
 
 {{ partial "call-to-action.html" . }}
-
+-->
 {{ end }}
