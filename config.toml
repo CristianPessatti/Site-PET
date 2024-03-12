@@ -1,4 +1,4 @@
-baseURL       = "http://example.org/"
+baseURL       = ""
 languageCode  = "en-us"
 title         = "PET ESTATÍSTICA UFPR"
 theme = "roxo-hugo"
@@ -29,7 +29,7 @@ summarylength = 25
     weight  = 5
   [[menu.nav]]
     name    = "MATERIAIS"
-    url     = ""
+    url     = "materiais"
     weight  = 6
   [[menu.nav]]
     name    = "CONTATO"
@@ -100,11 +100,11 @@ summarylength = 25
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
-    primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    title               = "PROCESSO SELETIVO ABERTO"
+    primary_button      = "Inscreva-se"
+    primary_button_url  = "https://docs.google.com/forms/u/0/"
+    secondary_button    = "Mais Informações"
+    secondary_button_url = "portfolio/proc_seletivo"
 
   [params.footer]
     params.footer.qr_print = false

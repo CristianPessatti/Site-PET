@@ -4,6 +4,10 @@
   @include mobile{
     padding: 120px 0 100px;
   }
+  h4 {
+    color: black;
+    margin-top: 50px;
+  }
   &-title{
     font-weight: 700;
     @include tablet{

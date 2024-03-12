@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8" />
+  <title>Hello R Markdown</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
+  <meta name="author" content="StaticMania">
+  
+  <meta name="generator" content="Hugo 0.121.2">
+
+  <!-- Bootstrap -->
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+  <!-- Main Stylesheets -->
+  
+  <link href="/scss/style.min.css" rel="stylesheet" />
+
+  
+
+  
+  <link rel="shortcut icon" href="images/favicon-pet-tbg.png" type="image/x-icon" />
+  <link rel="icon" href="images/favicon-pet-tbg.ico" type="image/x-icon" />
+</head>
+<body><nav class="navbar navbar-expand-lg site-navigation">
+  <div class="container">
+    <a class="navbar-brand" href="">
+      <img src="images/logo-pet.png" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+         
+         
+         
+          <li class="nav-item">
+            <a class="nav-link" href=""
+              >INÍCIO</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="about"
+              >SOBRE</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio"
+              >INTEGRANTES</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="blog"
+              >BLOG</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="projetos"
+              >PROJETOS</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="materiais"
+              >MATERIAIS</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="contact"
+              >CONTATO</a
+            >
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+
+<section class="site-blog details">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          <p><span>December 1, 2020</span> by <span>Frida Gomam</span></p>
+          <h2 class="blog-title">Hello R Markdown</h2>
+          <img class="feature-image" src="" alt="blog-feature-image">
+          
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
+</div>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span style="display:block;" id="fig:pie"></span>
+<img src="/blog/2020-12-01-r-rmarkdown/index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+</div>
+
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="site-cta" style='background-image: url("images/backgrounds/cta-background.jpg");'>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="site-cta-title">PROCESSO SELETIVO ABERTO</h1>
+          <ul class="site-cta-buttons">
+            <li>
+              <a href="https://docs.google.com/forms/u/0/" class="btn btn-secondary" target="_blank">
+                <span class="btn-area">
+                  <span data-text="Inscreva-se">
+                    Inscreva-se
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="portfolio/proc_seletivo" class="btn btn-primary" target="_blank">
+                <span class="btn-area">
+                  <span data-text="Mais Informações">
+                    Mais Informações
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+        </main><footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-footer-logo">
+          <div class="center-block">
+            <a href=""><img src="images/logo-pet-tbg.png" alt="logo-footer" class="center-block"></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">PROGRAMA DE EDUCAÇÃO TUTORIAL (PET) DO CURSO DE ESTATÍSTICA DA UFPR</h5>
+          <div class="site-footer-widget-icons">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12">
+        <div class="site-footer-copyright">
+          <p>© Copyright 2024 - Adaptado de <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+
+<script src="/js/vendor.min.js"></script>
+
+<script src="/js/script.min.js"></script>
+</body>
+</html>

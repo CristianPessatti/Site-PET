@@ -8,13 +8,13 @@
           <h1>
             {{ .Title }}
           </h1>
-          <div class="site-project-single-description">
-            {{ .Content }}
-          </div>
           <div class="site-project-single-image">
             {{ range .Params.project_images }}
             <img src="{{ . | absURL }}" alt="project image">
             {{ end }}
+          </div>
+          <div class="site-project-single-description">
+            {{ .Content }}
           </div>
           {{ if .NextInSection }}
           <div class="site-project-single-action">
@@ -33,7 +33,5 @@
     </div>
   </div>
 </section>
-
-{{ partial "call-to-action.html" . }}
 
 {{ end }}

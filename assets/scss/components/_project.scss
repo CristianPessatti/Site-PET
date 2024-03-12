@@ -188,7 +188,7 @@
       flex-wrap: wrap;
       margin-bottom: 30px;
       img{
-        width: 48%;
+        width: 100%;
         &:nth-child(2n){
           margin-left: auto;
         }
@@ -198,8 +198,10 @@
       }
     }
     &-description{
+      color: black !important;
       margin-bottom: 50px;
       p{
+        color: black !important;
         margin-bottom: 30px;
       }
     }
